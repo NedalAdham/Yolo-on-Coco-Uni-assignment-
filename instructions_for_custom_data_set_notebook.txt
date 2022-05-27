@@ -1,0 +1,20 @@
+the submitted notebook is an instance runned on google colab fully with no errors
+and its better to run it on a colab instance and no change will be needed if you want to 
+run the notebook on your machine please be aware of the time the model will take to train
+and follow the following instructions.
+
+in the custom dataset roboflow will download the data set in the working directory
+ in /content/dataset directory
+
+in the fifth cell or the trainig line of code remove the the path after --data 
+and put {working directory path}/content/datasets/mountains-and-houses-1/data.yaml
+
+in the seventh cell or the detection line of code remove th paath after --source and 
+put {working directory path}/content/datasets/mountains-and-houses-1/test/images
+
+in the eigth cell or the display image cell in the for loob change the path to
+'{working directory path}/content/yolov5/runs/detect/exp/*.jpg'
+(as string)
+
+the submitted notebook is an instance runned on google colab fully with no errors
+and its better to run it on a colab instance and no change will be needed.

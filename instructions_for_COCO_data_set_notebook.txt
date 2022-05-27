@@ -1,0 +1,6 @@
+in order to run yolo on coco file first you clone the Repo from git hub 
+in the coco.yml , I remove the link for downloading test dataset to avoid storage problem 
+
+then to avoid the cache problem I Wrote a script to delete from both train and val images and labels -you don’t have to do any thing here just don’t run it twice -
+
+I used 5000 image for training and 1000 for validation of course it didn’t give us the best acc , but we can observe a monotonic decrease in each epoch  
